@@ -1,3 +1,7 @@
+/*
+- The items are only 200px wide and the text wraps.
+- The item text is centered.
+*/
 body {
   font-family: 'Courier New', Courier, monospace;
 }
@@ -7,9 +11,22 @@ img {
   height: 100px;
 }
 
+.content {
+  display: flex;
+  justify-content: center;
+}
+.im-cap {
+  margin: 52px;
+  width: 200px;
+  text-align: center;
+}
+
 .title {
   font-size: 36px;
+  display: flex;
+  margin-bottom: 32px;
   font-weight: 900;
+  justify-content: center;
 }
 
 /* do not edit this footer */
